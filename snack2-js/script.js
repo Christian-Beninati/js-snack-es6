@@ -41,29 +41,23 @@ const students = [
 
 // Creo una nuova array Filtrando gli studenti con un totale di voti superiore a 70
 
-// const studentsAbove70 = students.filter((student) => {
-//     return student.grades > 70;
-//   });
-  const studentsAbove70 = students.filter((student) => student.grades > 70);
+const studentsAbove70 = students.filter((student) => student.grades > 70);
 console.log('Studenti con un totale di voti superiore a 70:');
-console.log(studentsAbove70);
+// itero su ogni studente per trasformare il name in maiuscolo e stampo in console
+studentsAbove70.forEach((student) => {
+const upperCaseName = student.name.toUpperCase();
+console.log(`ID: ${student.id}, Name: ${upperCaseName}, Grades: ${student.grades}`);
+});
 
 
 // Creo una nuova array Filtrando gli studenti con un totale di voti superiore a 70 e id superiore a 120
 
-// const studentsAbove70IdAbove120 = students.filter((student) => {
-//     return student.grades > 70 && student.id > 120;
-//   });
 const studentsAbove70IdAbove120 = students.filter((student) => student.grades > 70 && student.id > 120);
 console.log('Studenti con un totale di voti superiore a 70 e id superiore a 120:');
-console.log(studentsAbove70IdAbove120);
+// itero su ogni studente per trasformare il name in maiuscolo e stampo in console
+studentsAbove70IdAbove120.forEach((student) => {
+const upperCaseName = student.name.toUpperCase();
+console.log(`ID: ${student.id}, Name: ${upperCaseName}, Grades: ${student.grades}`);
+});
 
 
-// Creo una nuova array contenente i nomi degli studenti in maiuscolo
-
-// const uppercaseNames = students.map((student) => {
-//     return student.name.toUpperCase();
-//   });
-const uppercaseNames = students.map((student) => student.name.toUpperCase());
-console.log('Nomi degli studenti in maiuscolo:');
-console.log(uppercaseNames);
