@@ -45,16 +45,14 @@ Id Name Grades <br>
 - INIZIO
 - Creo un Array di oggetti
 
-- Filtro gli studenti con un totale di voti superiore a 70 utilizzando il metodo filter. (Creo una nuova Array) e stampo in console
+- Filtro gli studenti con un totale di voti superiore a 70 utilizzando utilizzando il metodo filter. (Creo una nuova Array)
 
-  - Utilizzo il metodo "forEach" sull'array "studentsAbove70" per iterare attraverso ogni studente e per ciascuno di essi:
-
-  - Utilizzo il metodo "toUpperCase" sulla proprietà "name" per convertire il nome degli studenti in maiuscolo e stampo in console
+  - Utilizzo il metodo map per creare una nuova array in cui trasformo il nome degli studenti in maiuscolo e mantengo gli altri dati
+  - Stampo in console
 
 - Filtro gli studenti con un totale di voti superiore a 70 e un ID superiore a 120 utilizzando il metodo filter. (Creo una nuova Array) e stampo in console
 
-  - Utilizzo il metodo "forEach" sull'array "studentsAbove70IdAbove120" per iterare attraverso ogni studente e per ciascuno di essi:
-
-  - Utilizzo il metodo "toUpperCase" sulla proprietà "name" per convertire il nome degli studenti in maiuscolo e stampo in console
+  - Utilizzo il metodo map per creare una nuova array in cui trasformo il nome degli studenti in maiuscolo e mantengo gli altri dati
+  - Stampo in console
 
 - FINE

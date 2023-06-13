@@ -40,24 +40,33 @@ const students = [
 ];
 
 // Creo una nuova array Filtrando gli studenti con un totale di voti superiore a 70
-
 const studentsAbove70 = students.filter((student) => student.grades > 70);
-console.log('Studenti con un totale di voti superiore a 70:');
-// itero su ogni studente per trasformare il name in maiuscolo e stampo in console
-studentsAbove70.forEach((student) => {
-const upperCaseName = student.name.toUpperCase();
-console.log(`ID: ${student.id}, Name: ${upperCaseName}, Grades: ${student.grades}`);
+
+// Trasformo il nome degli studenti in maiuscolo e mantengo gli altri dati
+const studentsAbove70UpperCase = studentsAbove70.map((student) => {
+  return {
+    id: student.id,
+    name: student.name.toUpperCase(),
+    grades: student.grades,
+  };
 });
+// Stampo in console
+console.log( 'Studenti con un totale di voti superiore a 70:', studentsAbove70UpperCase);
 
-
-// Creo una nuova array Filtrando gli studenti con un totale di voti superiore a 70 e id superiore a 120
-
+// Creo una nuova array Filtrando gli studenti con un totale di voti superiore a 70 e ID superiore a 120
 const studentsAbove70IdAbove120 = students.filter((student) => student.grades > 70 && student.id > 120);
-console.log('Studenti con un totale di voti superiore a 70 e id superiore a 120:');
-// itero su ogni studente per trasformare il name in maiuscolo e stampo in console
-studentsAbove70IdAbove120.forEach((student) => {
-const upperCaseName = student.name.toUpperCase();
-console.log(`ID: ${student.id}, Name: ${upperCaseName}, Grades: ${student.grades}`);
+
+// Trasformo il nome degli studenti in maiuscolo e mantengo gli altri dati
+const studentsAbove70IdAbove120UpperCase = studentsAbove70IdAbove120.map((student) => {
+  return {
+    id: student.id,
+    name: student.name.toUpperCase(),
+    grades: student.grades,
+  };
 });
+// Stampo in console
+console.log('Studenti con un totale di voti superiore a 70 e ID superiore a 120:' ,studentsAbove70IdAbove120UpperCase);
+
+
 
 
