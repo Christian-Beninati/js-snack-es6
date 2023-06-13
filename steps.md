@@ -47,7 +47,7 @@ Id Name Grades <br>
 
 - Filtro gli studenti con un totale di voti superiore a 70 utilizzando il metodo filter. (Creo una nuova Array) e stampo in console
 
-- Utilizzo il metodo "forEach" sull'array "studentsAbove70" per iterare attraverso ogni studente e per ciascuno di essi:
+  - Utilizzo il metodo "forEach" sull'array "studentsAbove70" per iterare attraverso ogni studente e per ciascuno di essi:
 
   - Utilizzo il metodo "toUpperCase" sulla proprietà "name" per convertire il nome degli studenti in maiuscolo e stampo in console
 
