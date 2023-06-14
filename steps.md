@@ -99,9 +99,14 @@ Infine, usando il destructuring, creiamo un nuovo array i cui elementi contengon
 <br>
 
 - INIZIO
+- Recupero gli elementi dal DOM
 - Creo una funzione per generare numeri casuali (min - max)
 - Creo Array di oggetti contenente le squadre di calcio
-- Genero un ciclo for per iterare attraverso ogni squadra nell'array. Per ogni squadra, assegno un valore casuale per i punti fatti e i falli subiti. Utilizzando la funzione fata precedentemente.
+- Genero un ciclo forEach per iterare attraverso ogni squadra nell'array. Per ogni squadra, assegno un valore casuale per i punti fatti e i falli subiti. Utilizzando la funzione fata precedentemente.
 - Stampo in console
+- Creo un ciclo forEach, estraggo le proprietà e inserisco nella stringa
+- Aggiorno il contenuto dell'elemento del DOM recuperato precedentemente
 - Creo una nuova array utilizzando il metodo map (che contiene solo le proprietà nomi e falli subiti), utilizzando destructuring per estrarre le proprietà da ciascun oggetto squadra.
+- Creo un ciclo forEach, estraggo le proprietà e inserisco nella stringa
+- Aggiorno il contenuto dell'elemento del DOM recuperato precedentemente
 - FINE
