@@ -56,3 +56,26 @@ Id Name Grades <br>
   - Stampo in console
 
 - FINE
+
+<br>
+<br>
+
+# SNACK 3
+
+Creare un array di oggetti:
+Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: name e weight.
+Stampare in console la bici con peso minore utilizzando il destructuring
+
+<br>
+<br>
+
+- INIZIO
+- Creo un array di oggetti (con le info delle bici da corsa)
+- Stampo l'array di oggetti in console
+- Inizializzo una variabile con il primo oggetto dell'array
+- Avvio un ciclo for per iterare atraverso gli oggetti dell'array
+  - Utilizzo il destructuring per estrarre il nome e il peso della bici corrente
+  - Confronto il peso della bici
+    - Se il peso della bici corrente è inferiore, aggiorna la variabile
+- Stampo in console
+- FINE
