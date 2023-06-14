@@ -1,5 +1,8 @@
 console.log('JS SNACK 3')
 
+// Recupero l'elemento dal DOM
+const weightBikeResult = document.getElementById('result-bike');
+
 // Array di oggetti (bikes)
 const  bikes = [
     {
@@ -43,3 +46,8 @@ for (let i = 0; i < bikes.length; i++) {
 // Stampo in console 
 console.log( `La bici con peso minore è:`, minWeightBike);
 
+//Creo una stringa
+const resultString = `La bici con peso minore è: ${minWeightBike.name} (${minWeightBike.weight} kg)`;
+
+// Assegmo la stringa all'elemento del DOM recuperato precedentemente 
+weightBikeResult.innerText = resultString;

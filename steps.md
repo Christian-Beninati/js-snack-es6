@@ -70,6 +70,7 @@ Stampare in console la bici con peso minore utilizzando il destructuring
 <br>
 
 - INIZIO
+- Recupero l'elemento da DOM
 - Creo un array di oggetti (con le info delle bici da corsa)
 - Stampo l'array di oggetti in console
 - Inizializzo una variabile con il primo oggetto dell'array
@@ -78,6 +79,9 @@ Stampare in console la bici con peso minore utilizzando il destructuring
   - Confronto il peso della bici
     - Se il peso della bici corrente è inferiore, aggiorna la variabile
 - Stampo in console
+- Stampo in pagina
+  - Creo una stringa con il risultato utilizzando template literal
+  - Assegmo la stringa all'elemento del DOM recuperato precedentemente
 - FINE
 
 <br>
